@@ -262,7 +262,8 @@ body {
 }
 
 @media screen and (max-width:768px) {
-    .col-profile,.d-search-icon,.d-searchbar {
+    .col-profile,.profile-name{display: none;}
+    .d-search-icon,.d-searchbar {
         display: none;
     }
     .d-logo {
@@ -270,9 +271,6 @@ body {
         height: 25px;
     }
     .d-downward {
-        display: none;
-    }
-    .profile-name {
         display: none;
     }
     
@@ -659,7 +657,13 @@ body {
 }
 
 /* Inner page */
-
+.analysis {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
 .form-header {
     font-size: 1.5rem;
 }
