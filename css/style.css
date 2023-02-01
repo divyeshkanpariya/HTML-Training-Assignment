@@ -672,18 +672,10 @@ input:focus {
     border: 1px solid #FFF3F4;
 
 }
-.file-upload {
-    border: 1px solid #C8242F;
-    color: #C8242F;
-    border-radius: 18px;
-    width: 124px;   
-    height: 36px;
-}
+
 .form-label {
     font-weight: bold;
 }
-
-
 .snackBar img {
     width: 25px;
     margin: 7px;
@@ -693,8 +685,6 @@ input:focus {
 .form-control {
     margin-top: 20px;
 }
-
-
 .headings {
     margin-top: 30px;
     font: normal normal medium 22px/29px Roboto;
@@ -706,9 +696,6 @@ input:focus {
     margin-top: 20px;
     margin-bottom: 15px;
 }
-
-
-
 .squareBox {
     display: flex;
     border: 1px solid;
@@ -733,9 +720,6 @@ input:focus {
     display: flex;
     align-items: center;
 }
-
-/* tab css  */
-
 .lorem {
     margin-bottom: 75px;
 }
@@ -754,4 +738,11 @@ td {
 button {
     background-color: #FFFFFF;
     border: none;
+}
+.file-upload {
+    border: 1px solid #C8242F;
+    color: #C8242F;
+    border-radius: 18px;
+    width: 124px;   
+    height: 36px;
 }
